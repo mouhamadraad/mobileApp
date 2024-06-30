@@ -7,6 +7,8 @@ class GoogleSheetsApi {
    
   "type": "service_account",
   "project_id": "flutter-gsheets-410919",
+   "private_key_id": "${Platform.environment['PRIVATE_KEY_ID']}",
+  "private_key": "${Platform.environment['PRIVATE_KEY']}",
   "client_email": "flutter-gsheets@flutter-gsheets-410919.iam.gserviceaccount.com",
   "client_id": "112431157200299513358",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
