@@ -1,4 +1,4 @@
-# b51
+# Wallet project
 
 A new Flutter project.
 
